@@ -1,5 +1,10 @@
 <?php
+    session_start();
 
+    include_once("functions/helper.php");
+
+    $page = isset($_GET['page']) ? $_GET['page'] : false;
+    
 ?>
 
 <!DOCTYPE html>
